@@ -11,4 +11,3 @@ The repository ships with:
 - Build scripts, sample data, tests, and an Agent-oriented skill
 
 See [docs/solution-overview.md](docs/solution-overview.md) for the architecture and [skills/rag-document-ingestion/SKILL.md](skills/rag-document-ingestion/SKILL.md) for the Agent skill.
-
