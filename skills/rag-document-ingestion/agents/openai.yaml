@@ -1,0 +1,5 @@
+version: 1
+display_name: RAG Document Ingestion
+short_description: Clean, deduplicate, redact, and structure enterprise documents before RAG ingestion.
+default_prompt: Process enterprise source documents into redacted Markdown and structured metadata using DocFlow Studio.
+

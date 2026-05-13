@@ -1,0 +1,5 @@
+[console_scripts]
+docflow-api = docflow.cli:run_api
+docflow-desktop = docflow.desktop_launcher:main
+docflow-mcp = docflow.cli:run_mcp
+docflow-worker = docflow.cli:run_worker

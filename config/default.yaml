@@ -1,0 +1,43 @@
+app:
+  name: DocFlow Studio
+  environment: local
+  default_tenant_id: demo-tenant
+  max_workers: 2
+  retry_attempts: 2
+  api_port: 8765
+  desktop_title: DocFlow Studio
+
+dedup:
+  exact_similarity: 1.0
+  near_similarity_threshold: 0.9
+  paragraph_similarity_threshold: 0.93
+  keep_policy: first_seen
+
+cleaning:
+  collapse_blank_lines: true
+  remove_repeated_headers: true
+  remove_page_numbers: true
+  remove_control_chars: true
+  trim_quote_threads: true
+
+redaction:
+  placeholder_style: bracketed
+  rules:
+    - person_name
+    - phone
+    - email
+    - address
+    - id_number
+    - account
+    - order_number
+    - ip_address
+    - access_token
+    - secret_key
+    - cookie
+    - contract_number
+
+output:
+  chunk_size: 1200
+  chunk_overlap: 150
+  markdown_line_width: 100
+

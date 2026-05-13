@@ -1,0 +1,10 @@
+客户常见问题
+
+联系人：李四
+联系电话：13900139000
+邮箱：support@example.com
+
+向量库导入支持 PDF、Word、Markdown、TXT 和邮件导出文本。
+
+向量库导入支持 PDF、Word、Markdown、TXT 和邮件导出文本。
+
