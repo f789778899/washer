@@ -8,11 +8,15 @@ __pycache__/
 .mypy_cache/
 .coverage
 htmlcov/
+*.egg-info/
+*.tsbuildinfo
 dist/
 build/
 node_modules/
 frontend/dist/
 frontend/.vite/
+frontend/vite.config.js
+frontend/vite.config.d.ts
 backend/.pytest_cache/
 backend/.coverage
 data/runtime/uploads/
@@ -21,4 +25,3 @@ data/output/
 *.log
 Thumbs.db
 Desktop.ini
-
